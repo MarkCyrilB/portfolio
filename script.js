@@ -1,3 +1,5 @@
-document.querySelector("button").addEventListener("click", function () {
-    alert("Thanks for contacting me! I will add real contact form later.");
-});
+function scrollToContact() {
+    document.getElementById("contact").scrollIntoView({
+        behavior: "smooth"
+    });
+}
